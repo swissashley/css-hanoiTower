@@ -1,0 +1,26 @@
+.hanoi {
+  display: flex;
+  width: 850px;
+  height: 250px;
+  margin: auto;
+  background-image: url("../tower.png");
+}
+
+.tower {
+  border-bottom: 10px black solid;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  margin: 20px;
+  width: 150px;
+  height: 200px;
+  padding: 0px;
+  list-style: none;
+
+}
+
+.disc {
+  margin: 0px auto 10px auto;
+  left: 0;
+  right: 0;
+}
